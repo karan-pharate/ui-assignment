@@ -3,9 +3,19 @@
 <body>
     <form>
         Firstname:<br>
-        <input type="text" name="Firstname"> 
+        <input type="text" name="Firstname" required><br>
         Lastname:<br>
-        <input type="text" name="Lastname">
+        <input type="text" name="Lastname" required><br>
+        Gender(M/F): <br> 
+        <input type="text" name="gender" required pattern="[mM]|[fF]"><br>
+        Email:<br>
+        <input type="text" name="email" required pattern ="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+        Password:<br>
+        <input type="text" name="password" required pattern ="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number one uppercase one lowercase letter, and at least 8 or more characters."><br>
+        Search:<br>
+        <input type="search">
+        <input type="submit">
+
     </form>
 </body>
 </html>
