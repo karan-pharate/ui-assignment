@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+header {
+  display: flex;
+  position: sticky;
+  padding: 10px 50px;
+  top: 0;
+  background-color: #a7adbd;
+}
+header a {
+  text-decoration: none;
+  font-weight: bold;
+}
+header a:hover {
+  color: blanchedalmond;
+}
+.logo-container img {
+  width: 10%;
+  border-radius: 50%;
+}
+.header-content {
+  display: flex;
+}
+
+.header-content ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-content ul li {
+  padding: 10px;
+  font-size: 30px;
+  color: #1c2942;
+}
+.content {
+  display: flex;
+}
+aside {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #d4d7dd;
+  font-size: 25px;
+  font-style: italic;
+  color: #1c2942;
+}
+section {
+  background-color: #eae9e9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sidebar-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.sidebar-content {
+  width: 300px;
+}
+.pricing {
+  display: flex;
+}
+.pricing img {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+section img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.main-para {
+  width: 400px;
+}
+.main-para p {
+  font-size: 35px;
+  font-style: italic;
+  color: #1c2942;
+}
+
+.content-image img {
+  width: 400px;
+  height: 280px;
+  border-radius: 0%;
+}
+section div {
+  margin-top: 30px;
+}
+.pizza-para {
+  margin: 30px 60px;
+}
+.pizza-para h1 {
+  font-style: oblique;
+  font-size: 55px;
+  font-weight: 500;
+  color: #1c2942;
+}
+.pizza-para p {
+  font-style: oblique;
+  font-size: 25px;
+  font-weight: 500;
+  color: #1c2942;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px 30px 10px;
+  background-color: #bfb9b9;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+footer p {
+  width: 300px;
+}
+
+footer img {
+  width: 300px;
+  height: 300px;
+}
