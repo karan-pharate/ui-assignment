@@ -1,0 +1,30 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px 20px;
+  padding: 10px;
+  background-color: burlywood;
+}
+.grid-container > div {
+  border: 1px solid black;
+  background-color: bisque;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+.grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.grid-item2,
+.grid-item9 {
+  grid-column: 1 / span 3;
+}
+.grid-item3 {
+  grid-row: 3 / span 2;
+}

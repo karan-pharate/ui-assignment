@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .relative {
+        position: relative;
+        left: 50px;
+        border: 3px solid red;
+    }
+    .relative1{
+        position: relative;
+        width: 400px;
+        height: 200px;
+        border: 3px solid red;
+    }
+    .absolute {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 270px;
+        height: 100px;
+        border: 3px solid orange;
+    }
+    .fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        border: 3px solid springgreen;
+    }
+    </style>
+</head>
+<body>
+        <h2>position: relative;</h2>        
+        <div class="relative">
+        This div element hass position: relative;
+        </div>
+        
+        <h2>position: absolute;</h2>
+        <div class="relative1">
+        This div element hass position: relative;
+        
+        <div class="absolute">
+        This div element has posiution : absolute;
+        </div>
+        </div>
+        <h2>position: fixed;</h2>
+        <div class="fixed">
+            This div element has position : fixed;
+        </div>
+</body>
+</html>
